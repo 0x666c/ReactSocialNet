@@ -1,0 +1,8 @@
+:root {
+    --navbar: #da504a;
+    --whitewall: var(--navbar);
+	--logo: rgb(250, 250, 250);
+    --body: rgb(246, 246, 246);
+    --selected: rgb(237, 237, 237);
+	--outline: #e1e1e1;
+}

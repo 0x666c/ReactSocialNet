@@ -1,0 +1,65 @@
+.profile-page-background {
+	padding: 20px;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: white;
+}
+
+.profile-page-icon {
+    width: 300px;
+    height: 300px;
+	image-rendering: optimizeQuality;
+}
+.profile-page-icon > * {
+    border: 1px solid black;
+}
+
+/* TEMPORARY */
+.pfp-test {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    background-color: cornflowerblue;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 3px;
+    color: white;
+}
+
+.profile-page-info {
+    /* Need a better solution */
+    position: absolute;
+}
+
+.profile-page-info-username {
+	word-wrap: break-word;
+	font-size: 32px;
+	line-height: 48px;
+}
+
+.profile-page-info-accountAge {
+	text-align: right;
+}
+
+.profile-page-info-status {
+	font-size: 15px;
+	margin-top: 5px;
+    margin-left: 5px;
+    height: 3em;
+    max-height: 3em;
+}
+
+.profile-page-info-bestpostLabel {
+    margin-top: 15px;
+}
+.profile-page-info-bestPosts-container {
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.profile-page-info-bestPosts {
+    border: 1px solid black;
+    border-radius: 4px;
+}

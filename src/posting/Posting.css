@@ -1,0 +1,94 @@
+.feed-container {
+	padding-top: 10px;
+	padding: 0;
+	width: 580px;
+	/* width: 31%; */
+}
+
+.post-wrapper {
+	border: 1px solid var(--outline);
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.post {
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.post-main-image {
+	max-height: 600px;
+	text-align: center;
+	margin: auto;
+	width: inherit;
+}
+.post-main-image > * > img {
+	max-height: 575px;
+	border: 1px solid var(--outline);
+	border-radius: 4px;
+}
+
+.post-additional-wrapper:not(:empty) {
+    border-top: 1px solid var(--outline);
+}
+
+.post-additional-scroll {
+	white-space: nowrap;
+}
+/* Fix that mf scrollbar to the right */
+.post-additional-scroll > * {
+	overflow-y: hidden !important;
+}
+
+.post-additional-image {
+	border-right: 1px solid white;
+	display: inline-block;
+	width: 128px;
+	max-width: 128px;
+}
+.post-additional-image:last-child {
+	border-right: none;
+	margin-right: 25px;
+}
+
+.post-text {
+    border-top: 1px solid var(--outline);
+    padding: 20px;
+    font-size: 14px;
+    font-family: serif;
+    background-color: white;
+}
+
+.post-info-container {
+	padding: 8px;
+	background-color: white;
+	border-top: 1px solid var(--outline);
+}
+
+.post-info-icon {
+	cursor: pointer;
+	width: 48px;
+	border: 1px solid var(--outline);
+}
+
+.post-info-namedate {
+	margin-left: 6px;
+	justify-content: space-between;
+}
+
+.post-info-name {
+	cursor: pointer;
+	line-height: 1.6;
+	font-size: 16px;
+}
+.post-info-name:hover {
+	text-decoration: underline;
+}
+
+.post-info-date {
+	color: gray;
+	font-size: 14px;
+}

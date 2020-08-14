@@ -1,0 +1,90 @@
+.form-control {
+	box-shadow: none !important;
+	border-color: lightgray !important;
+}
+
+.password-field {
+	outline-color: red !important;
+    resize: vertical;
+    max-height: calc(5ex * 5);
+    height: 5ex;
+    min-height: 5ex;
+}
+.password-field.corners {
+    border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.password-meter {
+	background-color: rgb(235, 235, 235);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border: 1px solid lightgray;
+	border-bottom: none;
+	height: 6px;
+	content: " ";
+}
+
+.password-meter-bar {
+	border-top-left-radius: 4px;
+	width: 0;
+	height: 100%;
+	content: " ";
+	transition: all 0.15s ease-in-out;
+}
+
+.password-meter-bar.bad {
+	background-color: red;
+	width: 20%;
+	transition: all 0.15s ease-in-out;
+}
+
+.password-meter-bar.medium {
+	background-color: orange;
+	width: 40%;
+	transition: all 0.15s ease-in-out;
+}
+
+.password-meter-bar.good {
+	background-color: limegreen;
+	width: 60%;
+	transition: all 0.15s ease-in-out;
+}
+
+.password-meter-bar.better {
+	background-color: rgb(15, 221, 221);
+	width: 80%;
+	transition: all 0.15s ease-in-out;
+}
+
+.password-meter-bar.perfect {
+	border-top-right-radius: 4px;
+
+	background-color: violet;
+	width: 100%;
+	transition: all 0.15s ease-in-out;
+	position: relative;
+}
+.password-meter-bar.perfect::after {
+	box-shadow: 0 0 4px 1px violet;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0px;
+	right: 0px;
+	content: " ";
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.password-meets {
+	color: green;
+	text-decoration: none;
+	transition: all 0.15s linear;
+}
+
+.password-not-meets {
+	color: red;
+	text-decoration: underline;
+	transition: all 0.2s linear;
+}
